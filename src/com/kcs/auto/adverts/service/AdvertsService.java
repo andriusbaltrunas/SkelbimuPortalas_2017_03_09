@@ -9,4 +9,6 @@ import java.util.List;
  */
 public interface AdvertsService {
     List<Advert> getAdverts();
+
+    Advert getAdvertById(int advertId);
 }

@@ -17,6 +17,8 @@ public class Advert {
     private String phone;
     private String shortDescription;
 
+    public Advert(){}
+
     public Advert(BigDecimal price, String description, Date insertTime, String city, Date activeTime, String email, String phone, String shortDescription) {
         this.price = price;
         this.description = description;
